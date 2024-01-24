@@ -7,9 +7,9 @@
 | Storage (SSD) | 20-40 GB | 200-300 GB |
 **OS Recommended Ubuntu 22.04**
 ## Update 11/25/2023
-Run Light Node v1.7.4 with one command
+Run Light Node v1.7.5-rc9 with one command
 ```bash
-bash <(wget -qO- https://raw.githubusercontent.com/hiephtdev/huong-dan-chay-full-node-avail/main/auto-run-avail-light-node.sh)"
+bash <(wget -qO- https://raw.githubusercontent.com/mooser1/full-node-avail/main/auto-run-avail-light-node.sh)"
 ```
 ## Update 11/21/2023
 Run full node v1.8.0.4 with one command
