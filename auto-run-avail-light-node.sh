@@ -1,12 +1,12 @@
 #!/bin/bash
 
 echo -e "\e[1;33m"
-echo "    __    __  __   __    _____   _______  _____    _____  __          __ _    _    ____  "
-echo "   |  \  /  |\  \ /  /  / ____| |__   __||_   _|  / ____| \ \        / /| |  | |  / __ \ "
-echo "   |   \/   | \  V  /  | (___      | |     | |   | |       \ \  /\  / / | |__| | | |  | |"
-echo "   | |\  /| |  \   /    \___ \     | |     | |   | |        \ \/  \/ /  |  __  | | |  | |"
-echo "   | | \/ | |   | |     ____) |    | |    _| |_  | |____     \  /\  /   | |  | | | |__| |"
-echo "   |_|    |_|   |_|    |_____/     |_|   |_____|  \_____|     \/  \/    |_|  |_|  \____/ "
+echo "    __    __    ____     ____     _____   ______  "
+echo "   |  \  /  |  / __ \   / __ \   / ____| |  __  | "
+echo "   |   \/   | | |__| | | |__| | | (___   | |___   "
+echo "   | |\  /| | | |__| | | |__| |  \___ \  |  ___|  "
+echo "   | | \/ | | | |__| | | |__| |   ___) | | |____  "
+echo "   |_|    |_|  \____/   \____/  |_____/  |______| "
 echo -e "\e[0m"
 sleep 2;
 echo -e "\e[1;33m1. Updating packages... \e[0m" && sleep 1
@@ -48,7 +48,7 @@ if [ ! -d "$FOLDER_PATH" ]; then
     mkdir -p "$FOLDER_PATH"
 fi
 cd $FOLDER_PATH
-wget https://github.com/availproject/avail-light/releases/download/v1.7.6/avail-light-linux-amd64.tar.gz
+wget https://github.com/availproject/avail-light/releases/download/v1.7.8/avail-light-linux-amd64.tar.gz
 tar -xvzf avail-light-linux-amd64.tar.gz
 # create service
 sudo tee /etc/systemd/system/availightd.service > /dev/null <<EOF
